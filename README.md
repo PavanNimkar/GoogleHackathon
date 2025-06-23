@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/c46122b0-4b51-4d06-ae7b-ddd0439c2628)
+
 # CodeClash 2.0
 CodeClash 2.0 is a national-level, student-led hackathon bringing together the brightest tech minds from across India for an intense coding marathon. Hosted at the prestigious Google Office, this event challenges participants to innovate and collaborate in a high-stakes environment, with escalating rounds of problem-solving and real-time feedback from industry experts.
 
