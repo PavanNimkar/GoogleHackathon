@@ -1,0 +1,156 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block link %}
+<link rel="stylesheet" href="{% static 'home/css/styles.css' %}" />{% endblock link %}
+
+{% block content %}
+<div class="story-container">
+  <div class="story">
+    <img src="{% static 'home/images/blankProfile.png' %}" alt="unstoppable">
+    <p>Brand</p>
+  </div>
+  <div class="story">
+    <img src="{% static 'home/images/blankProfile.png' %}" alt="hackmit">
+    <p>Toyota</p>
+  </div>
+  <div class="story">
+    <img src="{% static 'home/images/blankProfile.png' %}" alt="guvi">
+    <p>Brand</p>
+  </div>
+  <div class="story">
+    <img src="{% static 'home/images/blankProfile.png' %}" alt="tesla">
+    <p>teslamotors</p>
+  </div>
+  <div class="story">
+    <img src="{% static 'home/images/blankProfile.png' %}" alt="kolhapur">
+    <p>Brand</p>
+  </div>
+  <div class="story">
+    <img src="{% static 'home/images/blankProfile.png' %}" alt="ie">
+    <p>Brand</p>
+  </div>
+  <div class="story">
+    <img src="{% static 'home/images/blankProfile.png' %}" alt="beach">
+    <p>Influencer</p>
+  </div>
+  <div class="story">
+    <img src="{% static 'home/images/blankProfile.png' %}" alt="geeks">
+    <p>Brand</p>
+  </div>
+
+</div>
+<div class="panel">
+  <div class="profile-header">
+    <div class="myProfile">
+      <img src="{% static 'home/images/blankProfile.png' %}" alt="Profile">
+      <span>Pavan</span>
+    </div>
+    <a href="#">Switch</a>
+  </div>
+
+  <div class="suggestions">
+    <span>Suggested for you</span>
+    <a href="#">See All</a>
+  </div>
+
+  <div class="user">
+    <div class="user-left">
+      <img src="{% static 'home/images/blankProfile.png' %}" alt="">
+      <div class="user-info">
+        <div>Account</div>
+        <div class="subtext">Suggested for you</div>
+      </div>
+    </div>
+    <button class="follow">Follow</button>
+  </div>
+
+  <div class="user">
+    <div class="user-left">
+      <img src="{% static 'home/images/blankProfile.png' %}" alt="">
+      <div class="user-info">
+        <div>Account</div>
+        <div class="subtext">Suggested for you</div>
+      </div>
+    </div>
+    <button class="follow">Follow</button>
+  </div>
+
+  <div class="user">
+    <div class="user-left">
+      <img src="{% static 'home/images/blankProfile.png' %}" alt="">
+      <div class="user-info">
+        <div>Account</div>
+        <div class="subtext">Suggested for you</div>
+      </div>
+    </div>
+    <button class="follow">Follow</button>
+  </div>
+
+  <div class="user">
+    <div class="user-left">
+      <img src="{% static 'home/images/blankProfile.png' %}" alt="">
+      <div class="user-info">
+        <div>Account</div>
+        <div class="subtext">Suggested for you</div>
+      </div>
+    </div>
+    <button class="follow">Follow</button>
+  </div>
+
+  <div class="user">
+    <div class="user-left">
+      <img src="{% static 'home/images/blankProfile.png' %}" alt="">
+      <div class="user-info">
+        <div>Account</div>
+        <div class="subtext">Suggested for you</div>
+      </div>
+    </div>
+    <button class="follow">Follow</button>
+  </div>
+
+</div>
+<div class="insta-post">
+  <!-- Header -->
+  <div class="post-header">
+    <a href="/account"><img src="{% static 'home/images/nike_logo.jpeg' %}" alt="profile"></a>
+    <div>
+      <a href="/account"><span class="username">Nike</span></a>
+      <span class="time">· 8h</span>
+    </div>
+    <i class="fas fa-ellipsis-h more-icon"></i>
+  </div>
+
+  <!-- Image -->
+  <div class="post-image">
+    <img src="{% static 'home/images/postOne.jpeg' %}" alt="post"> <!-- replace with your image path -->
+  </div>
+
+  <!-- Actions -->
+  <div class="post-actions">
+    <i class="far fa-heart"></i>
+    <i class="far fa-comment"></i>
+    <i class="far fa-paper-plane"></i>
+    <i class="fa fa-cart-shopping"></i>
+  </div>
+
+  <!-- Likes -->
+  <div class="likes">7 Likes</div>
+
+  <!-- Caption -->
+  <div class="caption">
+    <span class="username">Nike</span>
+    <span class="caption-text">
+      description...
+    </span>
+  </div>
+
+  <div class="view-comments">View all 252 comments</div>
+
+  <!-- Add comment -->
+  <div class="add-comment">
+    <input type="text" placeholder="Add a comment...">
+  </div>
+</div>
+
+{% endblock content %}

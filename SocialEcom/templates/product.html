@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Product{% endblock %}
+{% block link %}
+<link rel="stylesheet" href="{% static 'home/css/styles.css' %}" />{% endblock link %}
+{% block content %}
+
+<div class="product-page-container">
+    <div class="product-images">
+        <img src="{% static 'home/images/shoe1.avif' %}" alt="Floral Printed Dupatta - Model View 1" class="main-image">
+    </div>
+
+    <div class="product-details">
+        <h1 class="product-title">Nike Shoes</h1>
+
+        <div class="product-rating">
+            <span class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </span>
+            <span class="rating-count">4.5 | 24 Ratings</span>
+        </div>
+
+        <div class="price-info">
+            <span class="current-price">₹620</span>
+            <span class="mrp-price">MRP <strike>₹1099</strike></span>
+            <span class="discount">(Rs. 479 OFF)</span>
+        </div>
+        <div class="tax-info">inclusive of all taxes</div>
+
+        <div class="size-selection">
+            <div class="select-size-label">SELECT SIZE</div>
+            <div class="size-options">
+                <button class="size-button selected">Onesize</button>
+            </div>
+        </div>
+
+        <div class="action-buttons">
+            <button class="add-to-bag-button">
+                <i class="fa-solid fa-cart-shopping"></i> ADD TO CART
+            </button>
+            <button class="wishlist-button">
+                <i class="far fa-heart"></i> WISHLIST
+            </button>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

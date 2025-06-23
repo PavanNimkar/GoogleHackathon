@@ -1,0 +1,80 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'home/css/styles.css' %}" />
+  {% block link %}{% endblock link %}
+  <link rel="shortcut icon" href="{% static 'home/images/favicon.png'%}" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="/"><img src="{% static 'home/images/logo.png' %}" alt="" srcset="" /></a>
+    </div>
+
+    <div class="search-container">
+      <input type="text" placeholder="Search for products, influencers or brands" class="search-bar" /> <span
+        class="search"><i class="fa-solid fa-magnifying-glass"></i></span>
+    </div>
+
+    <div class="auth-buttons">
+      <button class="btn">Sign In</button>
+      <button class="btn">Sign Out</button>
+    </div>
+  </nav>
+  <div class="filter-menu">
+    <ul>
+      <li>
+        <a href="#"><i class="fa-solid fa-bars"></i> All</a>
+      </li>
+      <li><a href="#">Women</a></li>
+      <li><a href="#">Men</a></li>
+      <li><a href="#">Electronics</a></li>
+      <li><a href="#">Households</a></li>
+      <li><a href="#">Gift Cards</a></li>
+      <li><a href="#">Personal</a></li>
+      <li><a href="#">Books</a></li>
+      <li><a href="#">Health</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebar">
+    <div>
+      <ul>
+        <a href="/">
+          <li><i class="fas fa-home"></i><span>Home</span></li>
+        </a>
+        <a href="/cart">
+          <li><i class="fa-solid fa-cart-shopping"></i><span>Cart</span></li>
+        </a>
+        <a href="/explore">
+          <li><i class="fas fa-compass"></i><span>Explore</span></li>
+        </a>
+        <a href="/">
+          <li><i class="fa-solid fa-video"></i><span>Shorts</span></li>
+        </a>
+        <a href="/account">
+          <li><i class="fas fa-user-circle"></i><span>Account</span></li>
+        </a>
+
+      </ul>
+    </div>
+    <div>
+      <a href="/">
+        <li><i class="fa-solid fa-gear"></i><span>Settings</span></li>
+      </a>
+    </div>
+  </div>
+
+  {% block content %}{% endblock content %}
+</body>
+
+</html>
