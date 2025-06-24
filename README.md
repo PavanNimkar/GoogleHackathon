@@ -57,11 +57,6 @@ Explore
 
 ![image](https://github.com/user-attachments/assets/1c52b0da-83f7-40a8-8353-e6e001060303)
 
-Accounts
-
-![image](https://github.com/user-attachments/assets/6820c09d-ac14-4336-9c5a-7ad1b7152948)
-![image](https://github.com/user-attachments/assets/94970e0d-a151-46cb-81ca-9cfe12f3a71a)
-
 Product
 
 ![image](https://github.com/user-attachments/assets/b22f5bfd-d68b-47c6-a681-cf7788dd3c45)
