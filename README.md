@@ -42,23 +42,3 @@ Finalist teams must carry valid college ID cards for entry
 Teams are expected to maintain respectful collaboration and adhere to mentor/judge feedback
 
 The organizing team may revise event details or rules if necessary
-
-# Snapshots
-
-Home page
-
-![image](https://github.com/user-attachments/assets/5b4eaabd-ff89-40da-8d4f-203ad66a44ab)
-
-Cart
-
-![image](https://github.com/user-attachments/assets/e128b77a-aef4-484b-8fa1-c04aed847365)
-
-Explore
-
-![image](https://github.com/user-attachments/assets/1c52b0da-83f7-40a8-8353-e6e001060303)
-
-Product
-
-![image](https://github.com/user-attachments/assets/b22f5bfd-d68b-47c6-a681-cf7788dd3c45)
-
-
